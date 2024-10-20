@@ -1,0 +1,15 @@
+index.js is the main file 
+*import all the required files
+ex: const express = require("express");
+    const {connectToMongoDB} = require('./connect'); //object destructring
+
+const app = express(); 
+const PORT = 8002; //port through which we can access the website
+
+files 
+controllers - functions 
+models - database schema
+routes - routes
+views - forntend
+connect.js - connecting to database
+

@@ -1,0 +1,16 @@
+rest api 
+
+GET /users -html document render
+GET /api/users -list all users
+GET /api/users/n - get the user with id n
+
+here n is a dynamic path parameters
+/api/users/:id 
+:any_variable =>represents dynamic path parameters
+
+
+POST /api/users-create new user
+
+PATCH /api/users/n - edit user with id n
+
+DELETE /api/users/n- delete user with id n
